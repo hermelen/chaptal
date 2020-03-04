@@ -1,0 +1,51 @@
+/* section.pupils-container {
+    display: flex;
+
+} */
+
+div.pupils {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+body {
+    background-image: url("https://www.bonnet-teissier.fr/wp-content/uploads/2018/07/DJI_0547-1024x768.jpg");
+    background-repeat: round;
+}
+
+ul.nav {
+    display: flex;
+    margin-bottom: 48px;
+}
+
+ul.nav li {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 12px;
+    background: darkblue;
+    color: #fff;
+    text-decoration: none;
+}
+
+ul.nav li:nth-child(odd) {
+    background-color: midnightblue;
+}
+
+ul.nav li:nth-child(even) {
+    background-color: rgb(77, 0, 128);
+}
+
+.school > div {
+    background-color: olive;
+    min-height: 10px;
+    margin-bottom: 48px;
+}
+
+div.card {
+    margin: 30px;
+}
