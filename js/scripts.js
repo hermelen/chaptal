@@ -10,7 +10,7 @@ $(document).ready(function() {
         if (random.length !== 3) {
             console.log('too short');
             for (let indexTer = 0; indexTer < (3 - random.length); indexTer++) {
-                random += "0"
+                random = "0" + random
             }
         }
         $(".pupils").append(

@@ -2,7 +2,7 @@ var max = 890;
 
 var pupils = [
    {
-      "name":"Jean-Mich",
+      "name":"Jean",
       "age":18,
       "rates":[
          15,
